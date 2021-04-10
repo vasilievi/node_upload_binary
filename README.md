@@ -1,6 +1,6 @@
 # Upload binary file to NodeJS
 
-Example of uploading using only express and fs in NodeJS.
+## Example of uploading using only express and fs in NodeJS.
 
 
 ```Javascript
@@ -18,4 +18,10 @@ app.post('/upload/:filename', function (req, res) {
 });
 ```
 
+## POST request example
+```Html
+POST /upload/:docs.zip 
+Host: localhost
+Body: [Binary data of file]
+```
 
