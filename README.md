@@ -2,6 +2,8 @@
 
 Example of uploading using only express and fs in NodeJS.
 
+
+```Javascript
 app.post('/upload/:filename', function (req, res) {
   var data = new Buffer.from('');
   req.on('data', function (chunk) {
@@ -14,3 +16,6 @@ app.post('/upload/:filename', function (req, res) {
     });
   });
 });
+```
+
+
